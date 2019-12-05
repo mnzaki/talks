@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title>slides by markdeck</title>
+
+    <meta name="description" content="slides by markdeck" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="assets/3rdparty/reveal.js/css/reveal.css" />
+    <link rel="stylesheet" href="assets/3rdparty/reveal.js/css/theme/simple.css" id="theme" />
+
+    <link rel="stylesheet" href="assets/markdeck/styles/zenburn.css" />
+
+        <link rel="stylesheet" href="assets/markdeck/css/markdeck.revealjs.css" />
+    <link rel="stylesheet" href="assets/css/slides.css" />
+
+    <script>
+        window.pdf_render = window.location.search.match(/render=pdf/gi) != null;
+        if (window.pdf_render) {
+            document.write('<link rel="stylesheet" href="assets/css/render-pdf.css" type="text/css">');
+        }
+    </script>
+
+    <link href="assets/css/rerendering.css" rel="stylesheet"></link>
+
+
+</head>
+<body>
+
+
+    <div class="rerendering-message"><h1>R E R E N D E R I N G</h1></div>
+    <div class="markdeck-logo"><a href="https://github.com/arnehilmann/markdeck">powered by markdeck</a></div>
+
+    <div class="reveal">
+        <div class="slides">
+
+<section id="local-first-apps-and-identity-wallets" class="level1">
+<h1>Local first apps and identity wallets</h1>
+</section>
+<section id="local-first-apps-and-identity-wallets-1" class="level1" data-bg="#000" data-background="#000">
+<h1><strike>Local first apps and identity wallets</strike></h1>
+<h1>
+Local first app design and the DWeb
+</h1>
+<p><small>and identity wallets make a cameo far down much later</small></p>
+<p><small>
+Slides at <a href="https://github.com/mnzaki/talks/local_first_dweb/">https://github.com/mnzaki/talks/local_first_dweb/</a>
+interesting links:
+<a href="/" target="_parent">your main deck</a>
+• <a href="/explain.html">markdown/slide side-by-side</a>
+• <a href="//localhost:8081/" target="_blank">utilities</a>
+</small></p>
+<p><img src="assets/markdeck/emojis/26aa.png" alt="⚪" class="emoji" /> <img src="assets/markdeck/emojis/26aa.png" alt="⚪" class="emoji" /> <img src="assets/markdeck/emojis/26aa.png" alt="⚪" class="emoji" /></p>
+</section>
+<section id="section" class="level1" data-bg="#000;assets/dweb_bln.png" data-background="#000" data-background-image="assets/dweb_bln.png">
+<h1></h1>
+</section>
+<section id="section-1" class="level1" data-bg="#000;assets/dweb.png" data-background="#000" data-background-image="assets/dweb.png">
+<h1></h1>
+</section>
+<section id="section-2" class="level1" data-bg="#000;assets/dweb_nodes.png" data-background="#000" data-background-image="assets/dweb_nodes.png">
+<h1></h1>
+</section>
+<section id="dweb" class="level1" data-bg="#000" data-background="#000">
+<h1>DWeb</h1>
+<section id="the-web-we-want-by-brewster-kahle-devcon4" class="level2">
+<h2>The Web We Want by Brewster Kahle (Devcon4)</h2>
+<p>https://youtu.be/rkdFko6wNuc?t=635
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkdFko6wNuc?start=635" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</section>
+</section>
+<section id="local-first" class="level1" data-bg="#000" data-background="#000">
+<h1>Local first</h1>
+</section>
+<section id="local-first-1" class="level1" data-bg="#000" data-background="#000">
+<h1>Local first</h1>
+<ul>
+<li>Offline functionality and data access</li>
+<li>Local communication channels</li>
+</ul>
+</section>
+<section id="data-storage" class="level1" data-bg="#000" data-background="#000">
+<h1>Data Storage</h1>
+<ul>
+<li>store user data locally</li>
+<li>allow collaborative editing</li>
+</ul>
+</section>
+<section id="databases-without-servers-how" class="level1" data-bg="#000" data-background="#000">
+<h1>“Databases” Without Servers: How?</h1>
+<ul>
+<li>Conflict-free Replicated Data Types (CRDTs)</li>
+<li>Offline interactions</li>
+<li>Server-less interactions</li>
+</ul>
+</section>
+<section id="connection-less-aka-offline-interaction" class="level1" data-bg="#000" data-background="#000">
+<h1>Connection-less (aka “offline”) interaction</h1>
+<ul>
+<li>you can consume or edit your replicated application data at any time</li>
+</ul>
+</section>
+<section id="trellis" class="level1" data-bg="#000" data-background="#000">
+<h1>Trellis</h1>
+<ul>
+<li><a href="https://www.inkandswitch.com/local-first.html" target="_blank">Ink &amp; Switch: Local-first software</a></li>
+<li><a href="https://www.youtube.com/watch?v=L9fdyDlhByM" target="_blank">Trellis Demonstration on youtube</a></li>
+</ul>
+<video width="500" height="400" controls>
+<source data-src="assets/trellis_demo.mp4" type="video/webm" />
+</video>
+</section>
+<section id="the-network" class="level1" data-bg="#200" data-background="#200">
+<h1>The Network</h1>
+<p>How do you physically reach your peers’ devices?</p>
+</section>
+<section id="the-internet" class="level1" data-bg="#300" data-background="#300">
+<h1>The Internet</h1>
+</section>
+<section id="no-internet" class="level1" data-bg="#000" data-background="#000">
+<h1>No Internet</h1>
+</section>
+<section id="local-first-connectivity" class="level1" data-bg="#000" data-background="#000">
+<h1>Local first connectivity</h1>
+<ul>
+<li>devices/applications are capable of direct communication on the local network</li>
+<li>bluetooth</li>
+<li>direct wifi</li>
+</ul>
+</section>
+<section id="the-internet-1" class="level1" data-bg="#300" data-background="#300">
+<h1>The Internet</h1>
+<p>But why bother when we already have<br />
+<code>THE INTERNET</code></p>
+</section>
+<section id="section-3" class="level1" data-bg="#400" data-transition="zoom" data-background="#400">
+<h1></h1>
+<p><span style="font-size: 150%">No internet</span></p>
+</section>
+<section id="section-4" class="level1" data-bg="#900" data-transition="zoom" data-background="#900">
+<h1></h1>
+<p><span style="font-size: 200%">no internet</span></p>
+</section>
+<section id="section-5" class="level1" data-bg="#b00" data-transition="zoom" data-background="#b00">
+<h1></h1>
+<p><span style="font-size: 250%">no-internet</span></p>
+</section>
+<section id="section-6" class="level1" data-bg="#000" data-transition="zoom" data-background="#000">
+<h1></h1>
+<p><a href="https://no-internet.net" target="_blank" style="font-size: 250%;
+white-space: nowrap; color: #8484F3">https://no-internet.net</a></p>
+</section>
+<section id="section-7" class="level1">
+<h1></h1>
+<ul>
+<li><a href="https://no-internet.net/">no-internet.net</a></li>
+<li><a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html">Andre Staltz: The web began dying in 2014</a></li>
+<li><a href="https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html">Andre Staltz: A plan to rescue the Web from the Internet</a></li>
+<li><a href="https://hacks.mozilla.org/2018/07/introducing-the-d-web/">Mozilla: Introducing DWeb</a></li>
+</ul>
+</section>
+<section id="and-back" class="level1" data-bg="#000" data-background="#000">
+<h1>and back</h1>
+<ul>
+<li>local first application
+<ul>
+<li>local data</li>
+<li>local connectivity</li>
+</ul></li>
+<li>can still talk to remote peers over <code>the internet</code></li>
+</ul>
+</section>
+<section id="more-problems" class="level1" data-bg="#000" data-background="#000">
+<h1>More problems</h1>
+</section>
+<section id="section-8" class="level1" data-bg="#000;assets/brewster_problems.png" data-background="#000" data-background-image="assets/brewster_problems.png">
+<h1></h1>
+</section>
+<section id="section-9" class="level1" data-bg="#000;assets/jolocom.png" data-background="#000" data-background-image="assets/jolocom.png">
+<h1></h1>
+</section>
+<section id="section-10" class="level1" data-bg="#000;assets/dweb_berlin_info.jpg" data-background="#000" data-background-image="assets/dweb_berlin_info.jpg">
+<h1></h1>
+</section>
+
+        </div>
+    </div>
+
+    <script src="assets/3rdparty/jquery.js"></script>
+
+    <script src="assets/3rdparty/reveal.js/lib/js/head.min.js"></script>
+    <script src="assets/3rdparty/reveal.js/js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: '',
+            controlsTutorial: '',
+            controlsLayout: 'bottom-right',
+            controlsBackArrows: 'faded',
+            progress: 'true',
+            defaultTiming: '120',
+            slideNumber: '',
+            history: 'true',
+            keyboard: 'true',
+            overview: 'true',
+            center: 'true',
+            touch: 'true',
+            loop: '',
+            rtl: '',
+            shuffle: '',
+            fragments: 'true',
+            embedded: '',
+            help: 'true',
+            showNotes: '',
+            autoPlayMedia: 'null',
+
+            autoSlide: (window.pdf_render) ? 0 : 0,
+
+            autoSlideStoppable: 'true',
+            autoSlideMethod: 'Reveal.navigateNext',
+            mouseWheel: '',
+            hideAddressBar: 'true',
+            previewLinks: '',
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+
+            theme: 'simple',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'assets/3rdparty/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'assets/markdeck/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'assets/3rdparty/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'assets/3rdparty/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+    </script>
+
+    
+    <script src="assets/markdeck/revealjs-helper.js"></script>
+    <script>
+        flushleft(".slides .flushleft");
+    </script>
+
+
+</body>
+</html>
