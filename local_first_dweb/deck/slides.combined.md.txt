@@ -6,21 +6,16 @@ controls: true
 ---
 
 # Local first apps and identity wallets
+- @mnzakisol on twitter
+- github.com/mnzaki
 
 # <strike>Local first apps and identity wallets</strike> {bg=#000}
 
 <h1>Local first app design and the DWeb</h1>
-<small>and identity wallets make a cameo far down much later</small>
+<small style="font-size: 30%">and identity wallets make a cameo far down much later</small>
 
-<small>
-Slides at [https://github.com/mnzaki/talks/local_first_dweb/](https://github.com/mnzaki/talks/local_first_dweb/)
-interesting links:
-  [your main deck](/){target="_parent"}
-• [markdown/slide side-by-side](/explain.html)
-• [utilities](//localhost:8081/){target="_blank"}
-</small>
-
-⚪ ⚪ ⚪
+- @mnzakisol on twitter
+- github.com/mnzaki
 
 # {bg=#000;assets/dweb_bln.png}
 
@@ -28,26 +23,25 @@ interesting links:
 
 # {bg=#000;assets/dweb_nodes.png}
 
-# DWeb {bg=#000}
-## The Web We Want by Brewster Kahle (Devcon4)
-https://youtu.be/rkdFko6wNuc?t=635
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkdFko6wNuc?start=635" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# {bg=#000;assets/dweb_camp.png}
 
-# Local first {bg=#000}
+# Local First Applications {bg=#000}
 
-# Local first {bg=#000}
-
+# Local First {bg=#000}
 - Offline functionality and data access
 - Local communication channels
 
 # Data Storage {bg=#000}
 - store user data locally
-- allow collaborative editing
+- allow collaborative editing even when offline!
 
 # "Databases" Without Servers: How? {bg=#000}
 - Conflict-free Replicated Data Types (CRDTs)
 - Offline interactions
 - Server-less interactions
+  - but actually server-less, not with virtualized servers
+    (like amazon's lambda)
+  - only peers, no servers
 
 # Connection-less (aka "offline") interaction {bg=#000}
 - you can consume or edit your replicated application data at any time
@@ -100,7 +94,13 @@ white-space: nowrap; color: #8484F3">https://no-internet.net</a>
 - local first application
   - local data
   - local connectivity
-- can still talk to remote peers over `the internet`
+- can still talk to remote peers over `the internet` if there is an internet
+
+# DWeb {bg=#000}
+## The Web We Want by Brewster Kahle (Devcon4)
+https://youtu.be/rkdFko6wNuc?t=635
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkdFko6wNuc?start=635" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # More problems {bg=#000}
 
@@ -109,5 +109,17 @@ white-space: nowrap; color: #8484F3">https://no-internet.net</a>
 # {bg=#000;assets/jolocom.png}
 
 # {bg=#000;assets/dweb_berlin_info.jpg}
+
+# Things to look for {bg=#000}
+- twitter: @GETDWeb @GETJolocom
+- DWeb Berlin (meetup.com/dweb-berlin)
+  - not dwebs.io that's something else....
+- Jolocom (jolocom.io)
+- Local First Software
+- https://no-internet.net
+- CRDT
+- scuttlebutt
+- solarpunk
+- Murray Bookchin
 
 
