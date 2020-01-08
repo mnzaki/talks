@@ -1,7 +1,6 @@
 ---
 title: P2P Future - A local first DWeb
 theme: night
-pdf: markdeck-scaffold.pdf
 slideNumber: true
 controls: true
 ---
@@ -90,12 +89,10 @@ There will be more camps! Join your local meetup or start one!
 
 # Offline first Trello clone: Trellis
 
-- [Ink & Switch: Local-first software](https://www.inkandswitch.com/local-first.html){target="_blank"}
-- [Trellis Demonstration on youtube](https://www.youtube.com/watch?v=L9fdyDlhByM){target="_blank"}
+- [Ink & Switch: Local-first software](https://www.inkandswitch.com/local-first.html)
+- [Trellis Demonstration on youtube](https://www.youtube.com/watch?v=L9fdyDlhByM)
 
-<video width="500" height="400" controls>
-  <source data-src="assets/trellis_demo.mp4" type="video/webm" />
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L9fdyDlhByM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # The Network {bg=#200}
 How do you physically reach your peers' devices?
